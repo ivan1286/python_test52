@@ -1,6 +1,13 @@
-def add(a,b):
-    return a+b
-def sub(a,b):
-    return a-b
-print(add(1,2))
-print(sub(1,2))
+class Nutrition:
+   total_calories = ""
+   consumed_calories = ""
+   calories_remaining = ""
+
+def add_meals(self,calories,meal_name):
+    self.consumed_calories += calories
+    self.calories_remaining -= calories
+    print(f"{meal_name} - {calories} calories was added to the nutrition")
+
+def get_remaining_calories(self):
+    return self.calories_remaining
+
