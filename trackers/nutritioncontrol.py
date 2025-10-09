@@ -3,7 +3,6 @@ class Nutrition:
    consumed_calories = ""
    calories_remaining = ""
 
-
 def __init__(self, total_calories):
     self.total_calories = total_calories
     self.consumed_calories = 0
